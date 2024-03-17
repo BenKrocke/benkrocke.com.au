@@ -21,3 +21,17 @@ p {
 a {
     @apply text-nord-black hover:text-nord-blue transition-colors;
 }
+
+.custom-shape-divider-bottom-1710655541 {
+    @apply static left-0 w-full overflow-hidden leading-none rotate-180 -mt-40 md:-mt-32;
+}
+
+.custom-shape-divider-bottom-1710655541 svg {
+    @apply relative block h-32;
+    width: calc(100% + 1.3px);
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1710655541 .shape-fill {
+    @apply fill-nord-frost;
+}
