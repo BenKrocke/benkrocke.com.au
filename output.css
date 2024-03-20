@@ -549,13 +549,16 @@ video {
   margin-bottom: 0.5rem;
 }
 
-.my-8 {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+.-mt-1 {
+  margin-top: -0.25rem;
 }
 
 .mb-16 {
   margin-bottom: 4rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
 }
 
 .mb-4 {
@@ -588,10 +591,6 @@ video {
 
 .mt-8 {
   margin-top: 2rem;
-}
-
-.mb-2 {
-  margin-bottom: 0.5rem;
 }
 
 .block {
@@ -689,16 +688,16 @@ video {
   padding-bottom: 10rem !important;
 }
 
+.pl-16 {
+  padding-left: 4rem;
+}
+
 .pr-16 {
   padding-right: 4rem;
 }
 
 .pt-24 {
   padding-top: 6rem;
-}
-
-.pl-16 {
-  padding-left: 4rem;
 }
 
 .text-2xl {
@@ -751,11 +750,6 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-nord-gray {
-  --tw-text-opacity: 1;
-  color: rgb(236 239 244 / var(--tw-text-opacity));
-}
-
 .transition-colors {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -794,7 +788,24 @@ a:hover {
   color: rgb(94 129 172 / var(--tw-text-opacity));
 }
 
-.custom-shape-divider-bottom-1710655541 {
+.divider-reversed {
+  position: static;
+  left: 0px;
+  margin-top: -0.25rem;
+  width: 100%;
+  overflow: hidden;
+  line-height: 1;
+}
+
+.divider-reversed svg {
+  position: relative;
+  display: block;
+  height: 8rem;
+  width: calc(100% + 1.3px);
+  transform: rotateY(180deg);
+}
+
+.divider {
   position: static;
   left: 0px;
   margin-top: -10rem;
@@ -806,12 +817,12 @@ a:hover {
 }
 
 @media (min-width: 768px) {
-  .custom-shape-divider-bottom-1710655541 {
+  .divider {
     margin-top: -8rem;
   }
 }
 
-.custom-shape-divider-bottom-1710655541 svg {
+.divider svg {
   position: relative;
   display: block;
   height: 8rem;
@@ -819,7 +830,11 @@ a:hover {
   transform: rotateY(180deg);
 }
 
-.custom-shape-divider-bottom-1710655541 .shape-fill {
+.divider .shape-fill {
+  fill: #81A1C1;
+}
+
+.divider-reversed .shape-fill {
   fill: #81A1C1;
 }
 

@@ -22,16 +22,30 @@ a {
     @apply text-nord-black hover:text-nord-blue transition-colors;
 }
 
-.custom-shape-divider-bottom-1710655541 {
-    @apply static left-0 w-full overflow-hidden leading-none rotate-180 -mt-40 md:-mt-32;
+.divider-reversed {
+    @apply static left-0 w-full overflow-hidden leading-none -mt-1;
 }
 
-.custom-shape-divider-bottom-1710655541 svg {
+.divider-reversed svg {
     @apply relative block h-32;
     width: calc(100% + 1.3px);
     transform: rotateY(180deg);
 }
 
-.custom-shape-divider-bottom-1710655541 .shape-fill {
+.divider {
+    @apply static left-0 w-full overflow-hidden leading-none rotate-180 -mt-40 md:-mt-32;
+}
+
+.divider svg {
+    @apply relative block h-32;
+    width: calc(100% + 1.3px);
+    transform: rotateY(180deg);
+}
+
+.divider .shape-fill {
+    @apply fill-nord-frost;
+}
+
+.divider-reversed .shape-fill {
     @apply fill-nord-frost;
 }
