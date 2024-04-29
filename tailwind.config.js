@@ -8,7 +8,7 @@ module.exports = {
 			white: '#ffffff',
 			nord: {
 				blue: '#5E81AC',
-				frost: '#	',
+				frost: '#8C9FC0',
 				black: '#4C566A',
 				gray: '#ECEFF4'
 			}

@@ -645,10 +645,6 @@ video {
   border-radius: 0.25rem;
 }
 
-.rounded-xl {
-  border-radius: 0.75rem;
-}
-
 .bg-nord-blue {
   --tw-bg-opacity: 1;
   background-color: rgb(94 129 172 / var(--tw-bg-opacity));
@@ -656,7 +652,7 @@ video {
 
 .bg-nord-frost {
   --tw-bg-opacity: 1;
-  background-color: rgb(129 161 193 / var(--tw-bg-opacity));
+  background-color: rgb(140 159 192 / var(--tw-bg-opacity));
 }
 
 .bg-white {
@@ -854,16 +850,16 @@ a:hover {
 }
 
 .divider .shape-fill {
-  fill: #81A1C1;
+  fill: #8C9FC0;
 }
 
 .divider-reversed .shape-fill {
-  fill: #81A1C1;
+  fill: #8C9FC0;
 }
 
 .hover\:bg-nord-frost:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(129 161 193 / var(--tw-bg-opacity));
+  background-color: rgb(140 159 192 / var(--tw-bg-opacity));
 }
 
 .hover\:text-nord-blue:hover {
