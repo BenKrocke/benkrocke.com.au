@@ -601,12 +601,28 @@ video {
   display: flex;
 }
 
+.grid {
+  display: grid;
+}
+
 .hidden {
   display: none;
 }
 
+.h-6 {
+  height: 1.5rem;
+}
+
+.min-h-32 {
+  min-height: 8rem;
+}
+
 .min-h-screen {
   min-height: 100vh;
+}
+
+.w-6 {
+  width: 1.5rem;
 }
 
 .w-full {
@@ -615,6 +631,10 @@ video {
 
 .grow {
   flex-grow: 1;
+}
+
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .flex-col {
@@ -633,16 +653,29 @@ video {
   justify-content: flex-end;
 }
 
-.justify-center {
-  justify-content: center;
-}
-
 .justify-between {
   justify-content: space-between;
 }
 
+.gap-8 {
+  gap: 2rem;
+}
+
 .rounded {
   border-radius: 0.25rem;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-solid {
+  border-style: solid;
+}
+
+.border-nord-blue {
+  --tw-border-opacity: 1;
+  border-color: rgb(94 129 172 / var(--tw-border-opacity));
 }
 
 .bg-nord-blue {
@@ -665,13 +698,14 @@ video {
      object-fit: cover;
 }
 
-.p-8 {
-  padding: 2rem;
-}
-
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .px-8 {
@@ -689,6 +723,15 @@ video {
   padding-bottom: 0.5rem;
 }
 
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.\!pb-32 {
+  padding-bottom: 8rem !important;
+}
+
 .\!pb-40 {
   padding-bottom: 10rem !important;
 }
@@ -697,12 +740,16 @@ video {
   padding-bottom: 12rem !important;
 }
 
-.pr-0 {
-  padding-right: 0px;
+.pl-0 {
+  padding-left: 0px;
 }
 
 .pt-24 {
   padding-top: 6rem;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .text-2xl {
@@ -713,6 +760,11 @@ video {
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .text-xl {
@@ -928,6 +980,14 @@ a:hover {
     display: none;
   }
 
+  .lg\:w-1\/3 {
+    width: 33.333333%;
+  }
+
+  .lg\:w-2\/3 {
+    width: 66.666667%;
+  }
+
   .lg\:w-2\/5 {
     width: 40%;
   }
@@ -943,6 +1003,10 @@ a:hover {
   .lg\:px-28 {
     padding-left: 7rem;
     padding-right: 7rem;
+  }
+
+  .lg\:pl-16 {
+    padding-left: 4rem;
   }
 
   .lg\:pr-16 {
