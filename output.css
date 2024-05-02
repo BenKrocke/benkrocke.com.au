@@ -685,7 +685,7 @@ video {
 
 .bg-nord-frost {
   --tw-bg-opacity: 1;
-  background-color: rgb(140 159 192 / var(--tw-bg-opacity));
+  background-color: rgb(129 161 193 / var(--tw-bg-opacity));
 }
 
 .bg-white {
@@ -902,16 +902,16 @@ a:hover {
 }
 
 .divider .shape-fill {
-  fill: #8C9FC0;
+  fill: #81A1C1;
 }
 
 .divider-reversed .shape-fill {
-  fill: #8C9FC0;
+  fill: #81A1C1;
 }
 
 .hover\:bg-nord-frost:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(140 159 192 / var(--tw-bg-opacity));
+  background-color: rgb(129 161 193 / var(--tw-bg-opacity));
 }
 
 .hover\:text-nord-blue:hover {
